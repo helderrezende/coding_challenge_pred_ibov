@@ -37,5 +37,6 @@ def get_train_data(resample_time='14B'):
     
     result = result.resample(resample_time).agg({'close': 'last'})
     result.columns = result.columns.droplevel()
+    result = result.pct_change().dropna()
     
     return result
