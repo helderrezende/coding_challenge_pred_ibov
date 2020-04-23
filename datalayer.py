@@ -1,6 +1,10 @@
 import pandas as pd
 
 def read_data(csv_name, date_name_col='ref_date'):
+    """
+    Simple reader.
+    
+    """
     
     data = pd.read_csv("data/{0}.csv".format(csv_name))
     data[date_name_col] = pd.to_datetime(data[date_name_col])
@@ -11,7 +15,9 @@ def read_data(csv_name, date_name_col='ref_date'):
     return data
 
 def merge_data_on_ibov(ibov, prices=['spx', 'uc1', 'br_econ_uncert']):
-    
+    """
+    Merge all dataframes on ibov.
+    """
     for price_name in prices:
         price_df = read_data(price_name)
         ibov = ibov.merge(price_df, on='ref_date', how='left')
