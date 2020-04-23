@@ -1,6 +1,6 @@
 ## Desafio - IBov
 
-23 de abril | BCG São Paulo
+23 de abril
 
 Desafio em prever o ibovespa realizado no dia 23 de abril.
 
