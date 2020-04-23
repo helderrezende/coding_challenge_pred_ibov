@@ -1,3 +1,5 @@
+import pandas as pd
+
 def read_prices(csv_name, date_name_col='ref_date'):
     """
     Read prices from folder data
