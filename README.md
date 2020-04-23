@@ -24,6 +24,7 @@ MacOS:
 $ conda create --name <env> python=3 pip
 $ conda activate <env>
 $ pip install -r requirements.txt
+```
 
 
 ### Model
