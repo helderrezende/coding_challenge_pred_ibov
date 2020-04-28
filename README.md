@@ -13,7 +13,7 @@ $ git clone https://github.com/helderrezende/coding_challenge_pred_ibov.git
 
 ### Data
 
-Os dados utilizados no modelo está dentro da pasta "data/"
+Os dados utilizados no modelo estão dentro da pasta "data/"
 
 
 ### Setup
@@ -30,3 +30,5 @@ $ pip install -r requirements.txt
 ### Model
 
 Dentro do notebook solution.ipynb está a lógica e explicação usada para prever o ibov.
+
+Foi feito um modelo de regressão e backtest simples. O desafio foi feito em 4 horas e meia portanto tem diversos pontos a melhorar.
