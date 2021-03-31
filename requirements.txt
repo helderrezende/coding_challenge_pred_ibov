@@ -108,7 +108,7 @@ lightgbm==2.3.1
 line-profiler==2.1.2
 llvmlite==0.29.0
 locket==0.2.0
-lxml==4.3.4
+lxml==4.6.3
 MarkupSafe==1.1.1
 matplotlib==3.1.0
 mccabe==0.6.1
